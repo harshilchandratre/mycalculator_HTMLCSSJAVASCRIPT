@@ -1,0 +1,69 @@
+/*code author : harshil chandratre*/
+
+.text-center{
+text-align: center;
+    margin: 0px 303px;
+    padding: 25px;
+}
+
+.text-right{
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color:  #d1ebff;
+}
+
+.bg-red{
+  background: red;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.item-center{
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #B9A89B;
+}
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.clear{
+   padding: 20px 52px;
+    margin: 0px 3px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e18406;
+}
+
+.equals{
+  padding: 20px 40px;
+    /* margin: 0px 16px; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

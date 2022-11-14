@@ -1,0 +1,51 @@
+/*code author : harshil chandratre*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color:  #1C7B95; /* #1A667B*/
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: #7ff0bb;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+h1:hover {
+  color: #ffffff;
+  text-shadow:0px 0px 30px #81bce9;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/*.container{
+  padding: 0;
+}*/
+
+.row{
+  margin: 6px 0;
+}
+
+.row-bottom{
+  margin: 6px 0;
+}
+
+.row input{
+  font-size: 19px;
+  margin: 0;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 11px;
+  background-image: linear-gradient(to right top, #86b5a3, #9ac2b2, #aecec2, #c2dbd1, #d6e8e1);
+}
+
+
